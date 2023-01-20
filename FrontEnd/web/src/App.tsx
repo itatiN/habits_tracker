@@ -6,6 +6,8 @@ function App() {
   return (
     <>
     <Habit completed={5}/>
+    <Habit completed={10}/>
+    <Habit completed={15}/>
     </>
   )
 }
