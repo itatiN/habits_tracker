@@ -6,11 +6,11 @@ CREATE TABLE "habits" (
 );
 
 -- CreateTable
-CREATE TABLE "(habit_week_days" (
+CREATE TABLE "habit_week_days" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "habit_id" TEXT NOT NULL,
     "week_day" INTEGER NOT NULL,
-    CONSTRAINT "(habit_week_days_habit_id_fkey" FOREIGN KEY ("habit_id") REFERENCES "habits" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
+    CONSTRAINT "habit_week_days_habit_id_fkey" FOREIGN KEY ("habit_id") REFERENCES "habits" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
 );
 
 -- CreateTable
@@ -29,7 +29,7 @@ CREATE TABLE "days_habits" (
 );
 
 -- CreateIndex
-CREATE UNIQUE INDEX "(habit_week_days_habit_id_week_day_key" ON "(habit_week_days"("habit_id", "week_day");
+CREATE UNIQUE INDEX "habit_week_days_habit_id_week_day_key" ON "habit_week_days"("habit_id", "week_day");
 
 -- CreateIndex
 CREATE UNIQUE INDEX "days_date_key" ON "days"("date");

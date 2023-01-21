@@ -31,7 +31,7 @@ model HabbitWeekDays {
   
 
   @@unique([habit_id, week_day])
-  @@map("(habit_week_days")
+  @@map("habit_week_days")
 }
 
 model Day {
