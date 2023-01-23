@@ -29,7 +29,7 @@ export function New() {
             await api.post('/habits', {title, weekDays})
             setTitle('')
             setWeekDays([])
-            Alert.alert('Novo hábito', 'Novo hábito criado com sucesso!')
+            Alert.alert('Novo hábito', 'Novo hábito criado  com sucesso!')
         } catch (error) {
             Alert.alert('Ops', 'Não foi possivel criar o novo hábito.')
             console.log(error)
