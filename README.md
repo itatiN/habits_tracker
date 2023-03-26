@@ -27,9 +27,8 @@ Now just scan the QR code and the app will appear on your phone! <br>
 - [Expo](https://expo.dev/client)
 
 
-https://user-images.githubusercontent.com/112434206/214429046-cd13a416-6a7f-4360-8917-6ff96d6edac7.mp4
-
-
-
+## Mobile view
 https://user-images.githubusercontent.com/112434206/214429062-33b853b6-45b8-4c70-a0bd-893b33b02ba4.mp4
 
+## Web view
+https://user-images.githubusercontent.com/112434206/214429046-cd13a416-6a7f-4360-8917-6ff96d6edac7.mp4
